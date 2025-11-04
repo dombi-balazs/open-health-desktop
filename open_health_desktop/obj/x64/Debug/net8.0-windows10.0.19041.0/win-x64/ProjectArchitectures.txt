@@ -1,0 +1,1 @@
+C:\Users\dombi\source\repos\open_health\open_health_desktop\open_health_desktop.csproj;x64
