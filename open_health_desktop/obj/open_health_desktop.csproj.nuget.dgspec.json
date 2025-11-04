@@ -1,31 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "/home/dombi-balazs/RiderProjects/open_health/open_health_desktop/open_health_desktop.csproj": {}
+    "C:\\Users\\dombi\\source\\repos\\open_health\\open_health_desktop\\open_health_desktop.csproj": {}
   },
   "projects": {
-    "/home/dombi-balazs/RiderProjects/open_health/open_health_desktop/open_health_desktop.csproj": {
+    "C:\\Users\\dombi\\source\\repos\\open_health\\open_health_desktop\\open_health_desktop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/dombi-balazs/RiderProjects/open_health/open_health_desktop/open_health_desktop.csproj",
+        "projectUniqueName": "C:\\Users\\dombi\\source\\repos\\open_health\\open_health_desktop\\open_health_desktop.csproj",
         "projectName": "open_health_desktop",
-        "projectPath": "/home/dombi-balazs/RiderProjects/open_health/open_health_desktop/open_health_desktop.csproj",
-        "packagesPath": "/home/dombi-balazs/.nuget/packages/",
-        "outputPath": "/home/dombi-balazs/RiderProjects/open_health/open_health_desktop/obj/",
+        "projectPath": "C:\\Users\\dombi\\source\\repos\\open_health\\open_health_desktop\\open_health_desktop.csproj",
+        "packagesPath": "C:\\Users\\dombi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dombi\\source\\repos\\open_health\\open_health_desktop\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/dombi-balazs/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\dombi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net9.0-windows"
         ],
         "sources": {
-          "/usr/lib/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net9.0-windows7.0": {
+            "targetAlias": "net9.0-windows",
             "projectReferences": {}
           }
         },
@@ -39,33 +44,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
-          "dependencies": {
-            "Avalonia": {
-              "target": "Package",
-              "version": "[11.3.6, )"
-            },
-            "Avalonia.Desktop": {
-              "target": "Package",
-              "version": "[11.3.6, )"
-            },
-            "Avalonia.Diagnostics": {
-              "target": "Package",
-              "version": "[11.3.6, )"
-            },
-            "Avalonia.Fonts.Inter": {
-              "target": "Package",
-              "version": "[11.3.6, )"
-            },
-            "Avalonia.Themes.Fluent": {
-              "target": "Package",
-              "version": "[11.3.6, )"
-            }
-          },
+        "net9.0-windows7.0": {
+          "targetAlias": "net9.0-windows",
           "imports": [
             "net461",
             "net462",
@@ -80,9 +63,12 @@
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.111/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
