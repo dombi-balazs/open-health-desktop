@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OpenHealthMLModelOne")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6057bc062751d0a9a29e1fcd3ab5e55d62c31d93")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6aa344c954b459a348416ef0d663e504b1bd9775")]
 [assembly: System.Reflection.AssemblyProductAttribute("OpenHealthMLModelOne")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OpenHealthMLModelOne")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

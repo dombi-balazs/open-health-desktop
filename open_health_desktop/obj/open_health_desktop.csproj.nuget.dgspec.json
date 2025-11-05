@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dombi\\OneDrive\\Dokumentumok\\computer-science\\open-health-desktop\\open-health-desktop\\open_health_desktop\\open_health_desktop.csproj": {}
+    "C:\\Users\\dombi\\Documents\\computer-science\\open-health-desktop\\open_health_desktop\\open_health_desktop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dombi\\OneDrive\\Dokumentumok\\computer-science\\open-health-desktop\\open-health-desktop\\OpenHealthMLModelOne\\OpenHealthMLModelOne.csproj": {
+    "C:\\Users\\dombi\\Documents\\computer-science\\open-health-desktop\\OpenHealthMLModelOne\\OpenHealthMLModelOne.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dombi\\OneDrive\\Dokumentumok\\computer-science\\open-health-desktop\\open-health-desktop\\OpenHealthMLModelOne\\OpenHealthMLModelOne.csproj",
+        "projectUniqueName": "C:\\Users\\dombi\\Documents\\computer-science\\open-health-desktop\\OpenHealthMLModelOne\\OpenHealthMLModelOne.csproj",
         "projectName": "OpenHealthMLModelOne",
-        "projectPath": "C:\\Users\\dombi\\OneDrive\\Dokumentumok\\computer-science\\open-health-desktop\\open-health-desktop\\OpenHealthMLModelOne\\OpenHealthMLModelOne.csproj",
+        "projectPath": "C:\\Users\\dombi\\Documents\\computer-science\\open-health-desktop\\OpenHealthMLModelOne\\OpenHealthMLModelOne.csproj",
         "packagesPath": "C:\\Users\\dombi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dombi\\OneDrive\\Dokumentumok\\computer-science\\open-health-desktop\\open-health-desktop\\OpenHealthMLModelOne\\obj\\",
+        "outputPath": "C:\\Users\\dombi\\Documents\\computer-science\\open-health-desktop\\OpenHealthMLModelOne\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,20 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.ML": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.ML.Vision": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "SciSharp.TensorFlow.Redist": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -70,14 +84,14 @@
         }
       }
     },
-    "C:\\Users\\dombi\\OneDrive\\Dokumentumok\\computer-science\\open-health-desktop\\open-health-desktop\\open_health_desktop\\open_health_desktop.csproj": {
+    "C:\\Users\\dombi\\Documents\\computer-science\\open-health-desktop\\open_health_desktop\\open_health_desktop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dombi\\OneDrive\\Dokumentumok\\computer-science\\open-health-desktop\\open-health-desktop\\open_health_desktop\\open_health_desktop.csproj",
+        "projectUniqueName": "C:\\Users\\dombi\\Documents\\computer-science\\open-health-desktop\\open_health_desktop\\open_health_desktop.csproj",
         "projectName": "open_health_desktop",
-        "projectPath": "C:\\Users\\dombi\\OneDrive\\Dokumentumok\\computer-science\\open-health-desktop\\open-health-desktop\\open_health_desktop\\open_health_desktop.csproj",
+        "projectPath": "C:\\Users\\dombi\\Documents\\computer-science\\open-health-desktop\\open_health_desktop\\open_health_desktop.csproj",
         "packagesPath": "C:\\Users\\dombi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dombi\\OneDrive\\Dokumentumok\\computer-science\\open-health-desktop\\open-health-desktop\\open_health_desktop\\obj\\",
+        "outputPath": "C:\\Users\\dombi\\Documents\\computer-science\\open-health-desktop\\open_health_desktop\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -99,8 +113,8 @@
           "net8.0-windows10.0.19041": {
             "targetAlias": "net8.0-windows10.0.19041.0",
             "projectReferences": {
-              "C:\\Users\\dombi\\OneDrive\\Dokumentumok\\computer-science\\open-health-desktop\\open-health-desktop\\OpenHealthMLModelOne\\OpenHealthMLModelOne.csproj": {
-                "projectPath": "C:\\Users\\dombi\\OneDrive\\Dokumentumok\\computer-science\\open-health-desktop\\open-health-desktop\\OpenHealthMLModelOne\\OpenHealthMLModelOne.csproj"
+              "C:\\Users\\dombi\\Documents\\computer-science\\open-health-desktop\\OpenHealthMLModelOne\\OpenHealthMLModelOne.csproj": {
+                "projectPath": "C:\\Users\\dombi\\Documents\\computer-science\\open-health-desktop\\OpenHealthMLModelOne\\OpenHealthMLModelOne.csproj"
               }
             }
           }
@@ -120,16 +134,6 @@
       "frameworks": {
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
-          "dependencies": {
-            "Microsoft.Windows.SDK.BuildTools": {
-              "target": "Package",
-              "version": "[10.0.26100.6901, )"
-            },
-            "Microsoft.WindowsAppSDK": {
-              "target": "Package",
-              "version": "[1.8.251003001, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -141,56 +145,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Runtime.win-arm64",
-              "version": "[8.0.21, 8.0.21]"
-            },
-            {
-              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[8.0.21, 8.0.21]"
-            },
-            {
-              "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
-              "version": "[8.0.21, 8.0.21]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.win-arm64",
-              "version": "[8.0.21, 8.0.21]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[8.0.21, 8.0.21]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.win-x86",
-              "version": "[8.0.21, 8.0.21]"
-            },
-            {
-              "name": "Microsoft.Windows.SDK.NET.Ref",
-              "version": "[10.0.19041.57, 10.0.19041.57]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Runtime.win-arm64",
-              "version": "[8.0.21, 8.0.21]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-              "version": "[8.0.21, 8.0.21]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x86",
-              "version": "[8.0.21, 8.0.21]"
-            }
-          ],
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            },
-            "Microsoft.Windows.SDK.NET.Ref.Windows": {
-              "privateAssets": "all"
-            }
-          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       },
