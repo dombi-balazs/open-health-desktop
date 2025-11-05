@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DOyaDrYc9Lw=",
-  "success": true,
-  "projectFilePath": "C:\\Users\\dombi\\source\\repos\\open_health\\open_health_desktop\\open_health_desktop.csproj",
+  "dgSpecHash": "8UxmonHpmBc=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\dombi\\OneDrive\\Dokumentumok\\computer-science\\open-health-desktop\\open-health-desktop\\open_health_desktop\\open_health_desktop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dombi\\.nuget\\packages\\microsoft.web.webview2\\1.0.3179.45\\microsoft.web.webview2.1.0.3179.45.nupkg.sha512",
     "C:\\Users\\dombi\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.26100.6901\\microsoft.windows.sdk.buildtools.10.0.26100.6901.nupkg.sha512",
@@ -28,5 +28,50 @@
     "C:\\Users\\dombi\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.21\\microsoft.netcore.app.runtime.win-x64.8.0.21.nupkg.sha512",
     "C:\\Users\\dombi\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\8.0.21\\microsoft.windowsdesktop.app.runtime.win-x86.8.0.21.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project OpenHealthMLModelOne is not compatible with net8.0-windows10.0.19041 (.NETCoreApp,Version=v8.0). Project OpenHealthMLModelOne supports: net9.0 (.NETCoreApp,Version=v9.0)",
+      "projectPath": "C:\\Users\\dombi\\OneDrive\\Dokumentumok\\computer-science\\open-health-desktop\\open-health-desktop\\open_health_desktop\\open_health_desktop.csproj",
+      "filePath": "C:\\Users\\dombi\\OneDrive\\Dokumentumok\\computer-science\\open-health-desktop\\open-health-desktop\\open_health_desktop\\open_health_desktop.csproj",
+      "libraryId": "OpenHealthMLModelOne",
+      "targetGraphs": [
+        "net8.0-windows10.0.19041"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project OpenHealthMLModelOne is not compatible with net8.0-windows10.0.19041 (.NETCoreApp,Version=v8.0) / win-arm64. Project OpenHealthMLModelOne supports: net9.0 (.NETCoreApp,Version=v9.0)",
+      "projectPath": "C:\\Users\\dombi\\OneDrive\\Dokumentumok\\computer-science\\open-health-desktop\\open-health-desktop\\open_health_desktop\\open_health_desktop.csproj",
+      "filePath": "C:\\Users\\dombi\\OneDrive\\Dokumentumok\\computer-science\\open-health-desktop\\open-health-desktop\\open_health_desktop\\open_health_desktop.csproj",
+      "libraryId": "OpenHealthMLModelOne",
+      "targetGraphs": [
+        "net8.0-windows10.0.19041/win-arm64"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project OpenHealthMLModelOne is not compatible with net8.0-windows10.0.19041 (.NETCoreApp,Version=v8.0) / win-x64. Project OpenHealthMLModelOne supports: net9.0 (.NETCoreApp,Version=v9.0)",
+      "projectPath": "C:\\Users\\dombi\\OneDrive\\Dokumentumok\\computer-science\\open-health-desktop\\open-health-desktop\\open_health_desktop\\open_health_desktop.csproj",
+      "filePath": "C:\\Users\\dombi\\OneDrive\\Dokumentumok\\computer-science\\open-health-desktop\\open-health-desktop\\open_health_desktop\\open_health_desktop.csproj",
+      "libraryId": "OpenHealthMLModelOne",
+      "targetGraphs": [
+        "net8.0-windows10.0.19041/win-x64"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project OpenHealthMLModelOne is not compatible with net8.0-windows10.0.19041 (.NETCoreApp,Version=v8.0) / win-x86. Project OpenHealthMLModelOne supports: net9.0 (.NETCoreApp,Version=v9.0)",
+      "projectPath": "C:\\Users\\dombi\\OneDrive\\Dokumentumok\\computer-science\\open-health-desktop\\open-health-desktop\\open_health_desktop\\open_health_desktop.csproj",
+      "filePath": "C:\\Users\\dombi\\OneDrive\\Dokumentumok\\computer-science\\open-health-desktop\\open-health-desktop\\open_health_desktop\\open_health_desktop.csproj",
+      "libraryId": "OpenHealthMLModelOne",
+      "targetGraphs": [
+        "net8.0-windows10.0.19041/win-x86"
+      ]
+    }
+  ]
 }

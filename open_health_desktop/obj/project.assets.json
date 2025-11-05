@@ -340,6 +340,16 @@
           "buildTransitive/Microsoft.WindowsAppSDK.WinUI.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.WinUI.targets": {}
         }
+      },
+      "OpenHealthMLModelOne/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/OpenHealthMLModelOne.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OpenHealthMLModelOne.dll": {}
+        }
       }
     },
     "net8.0-windows10.0.19041/win-arm64": {
@@ -628,6 +638,16 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.WinUI.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.WinUI.targets": {}
+        }
+      },
+      "OpenHealthMLModelOne/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/OpenHealthMLModelOne.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OpenHealthMLModelOne.dll": {}
         }
       }
     },
@@ -918,6 +938,16 @@
           "buildTransitive/Microsoft.WindowsAppSDK.WinUI.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.WinUI.targets": {}
         }
+      },
+      "OpenHealthMLModelOne/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/OpenHealthMLModelOne.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OpenHealthMLModelOne.dll": {}
+        }
       }
     },
     "net8.0-windows10.0.19041/win-x86": {
@@ -1203,6 +1233,16 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.WinUI.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.WinUI.targets": {}
+        }
+      },
+      "OpenHealthMLModelOne/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/OpenHealthMLModelOne.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OpenHealthMLModelOne.dll": {}
         }
       }
     }
@@ -3082,12 +3122,18 @@
         "tools/x64/GenXbf.dll",
         "tools/x86/GenXbf.dll"
       ]
+    },
+    "OpenHealthMLModelOne/1.0.0": {
+      "type": "project",
+      "path": "../OpenHealthMLModelOne/OpenHealthMLModelOne.csproj",
+      "msbuildProject": "../OpenHealthMLModelOne/OpenHealthMLModelOne.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-windows10.0.19041": [
       "Microsoft.Windows.SDK.BuildTools >= 10.0.26100.6901",
-      "Microsoft.WindowsAppSDK >= 1.8.251003001"
+      "Microsoft.WindowsAppSDK >= 1.8.251003001",
+      "OpenHealthMLModelOne >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3097,11 +3143,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dombi\\source\\repos\\open_health\\open_health_desktop\\open_health_desktop.csproj",
+      "projectUniqueName": "C:\\Users\\dombi\\OneDrive\\Dokumentumok\\computer-science\\open-health-desktop\\open-health-desktop\\open_health_desktop\\open_health_desktop.csproj",
       "projectName": "open_health_desktop",
-      "projectPath": "C:\\Users\\dombi\\source\\repos\\open_health\\open_health_desktop\\open_health_desktop.csproj",
+      "projectPath": "C:\\Users\\dombi\\OneDrive\\Dokumentumok\\computer-science\\open-health-desktop\\open-health-desktop\\open_health_desktop\\open_health_desktop.csproj",
       "packagesPath": "C:\\Users\\dombi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dombi\\source\\repos\\open_health\\open_health_desktop\\obj\\",
+      "outputPath": "C:\\Users\\dombi\\OneDrive\\Dokumentumok\\computer-science\\open-health-desktop\\open-health-desktop\\open_health_desktop\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3122,7 +3168,11 @@
       "frameworks": {
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\dombi\\OneDrive\\Dokumentumok\\computer-science\\open-health-desktop\\open-health-desktop\\OpenHealthMLModelOne\\OpenHealthMLModelOne.csproj": {
+              "projectPath": "C:\\Users\\dombi\\OneDrive\\Dokumentumok\\computer-science\\open-health-desktop\\open-health-desktop\\OpenHealthMLModelOne\\OpenHealthMLModelOne.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -3225,5 +3275,43 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project OpenHealthMLModelOne is not compatible with net8.0-windows10.0.19041 (.NETCoreApp,Version=v8.0). Project OpenHealthMLModelOne supports: net9.0 (.NETCoreApp,Version=v9.0)",
+      "libraryId": "OpenHealthMLModelOne",
+      "targetGraphs": [
+        "net8.0-windows10.0.19041"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project OpenHealthMLModelOne is not compatible with net8.0-windows10.0.19041 (.NETCoreApp,Version=v8.0) / win-arm64. Project OpenHealthMLModelOne supports: net9.0 (.NETCoreApp,Version=v9.0)",
+      "libraryId": "OpenHealthMLModelOne",
+      "targetGraphs": [
+        "net8.0-windows10.0.19041/win-arm64"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project OpenHealthMLModelOne is not compatible with net8.0-windows10.0.19041 (.NETCoreApp,Version=v8.0) / win-x64. Project OpenHealthMLModelOne supports: net9.0 (.NETCoreApp,Version=v9.0)",
+      "libraryId": "OpenHealthMLModelOne",
+      "targetGraphs": [
+        "net8.0-windows10.0.19041/win-x64"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project OpenHealthMLModelOne is not compatible with net8.0-windows10.0.19041 (.NETCoreApp,Version=v8.0) / win-x86. Project OpenHealthMLModelOne supports: net9.0 (.NETCoreApp,Version=v9.0)",
+      "libraryId": "OpenHealthMLModelOne",
+      "targetGraphs": [
+        "net8.0-windows10.0.19041/win-x86"
+      ]
+    }
+  ]
 }
